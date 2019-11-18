@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v4.1.0 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -4623,7 +4618,7 @@ button.close {
   .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before {
     bottom: 0;
     border-top-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-top .arrow::after,
   .bs-popover-auto[x-placement^="top"] .arrow::after {
     bottom: 1px;
@@ -4643,7 +4638,7 @@ button.close {
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before {
     left: 0;
     border-right-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-right .arrow::after,
   .bs-popover-auto[x-placement^="right"] .arrow::after {
     left: 1px;
@@ -4660,7 +4655,7 @@ button.close {
   .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^="bottom"] .arrow::before {
     top: 0;
     border-bottom-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-bottom .arrow::after,
   .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     top: 1px;
@@ -4689,7 +4684,7 @@ button.close {
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before {
     right: 0;
     border-left-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-left .arrow::after,
   .bs-popover-auto[x-placement^="left"] .arrow::after {
     right: 1px;
@@ -7276,7 +7271,7 @@ body {
   color: #999999; }
   body.offcanvas {
     overflow-x: hidden; }
-    body.offcanvas #colorlib-aside {
+    body.offcanvas #aside {
       -moz-transform: translateX(0);
       -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
@@ -7286,7 +7281,7 @@ body {
       background: #fff;
       z-index: 999;
       position: fixed; }
-    body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
+    body.offcanvas #main, body.offcanvas .nav-toggle {
       top: 0;
       -moz-transform: translateX(270px);
       -webkit-transform: translateX(270px);
@@ -7311,12 +7306,12 @@ h1, h2, h3, h4, h5,
   font-weight: 400;
   font-family: "Poppins", Arial, sans-serif; }
 
-#colorlib-page {
+#page {
   width: 100%;
   overflow: hidden;
   position: relative; }
 
-#colorlib-aside {
+#aside {
   padding-top: 3em;
   padding-bottom: 40px;
   padding-left: 3em;
@@ -7336,10 +7331,10 @@ h1, h2, h3, h4, h5,
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease; }
   @media (min-width: 992px) {
-    #colorlib-aside {
+    #aside {
       width: 20%; } }
   @media (max-width: 991.98px) {
-    #colorlib-aside {
+    #aside {
       width: 270px;
       -moz-transform: translateX(-270px);
       -webkit-transform: translateX(-270px);
@@ -7348,33 +7343,33 @@ h1, h2, h3, h4, h5,
       transform: translateX(-270px);
       padding-top: 2em;
       background: rgba(0, 0, 0, 0.04); } }
-  #colorlib-aside #colorlib-logo {
+  #aside #logo {
     margin-bottom: 2.5em;
     display: block;
     width: 100%;
     font-weight: 700;
     font-size: 24px; }
-    #colorlib-aside #colorlib-logo span {
+    #aside #logo span {
       display: block;
       font-size: 100px;
       line-height: 1.0; }
     @media (max-width: 991.98px) {
-      #colorlib-aside #colorlib-logo {
+      #aside #logo {
         margin-bottom: 20px; } }
-    #colorlib-aside #colorlib-logo a {
+    #aside #logo a {
       display: inline-block;
       text-align: center;
       color: #000000; }
-  #colorlib-aside #colorlib-main-menu ul {
+  #aside #main-menu ul {
     margin: 0;
     padding: 0; }
-    #colorlib-aside #colorlib-main-menu ul li {
+    #aside #main-menu ul li {
       margin: 0 0 15px 0;
       padding: 0;
       list-style: none;
       font-size: 16px;
       font-weight: 700; }
-      #colorlib-aside #colorlib-main-menu ul li a {
+      #aside #main-menu ul li a {
         color: rgba(0, 0, 0, 0.7);
         text-decoration: none;
         position: relative;
@@ -7385,7 +7380,7 @@ h1, h2, h3, h4, h5,
         -webkit-transition: all 0.3s ease;
         -ms-transition: all 0.3s ease;
         transition: all 0.3s ease; }
-        #colorlib-aside #colorlib-main-menu ul li a:after {
+        #aside #main-menu ul li a:after {
           content: "";
           position: absolute;
           height: 1px;
@@ -7404,26 +7399,26 @@ h1, h2, h3, h4, h5,
           -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
           -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
           transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
-        #colorlib-aside #colorlib-main-menu ul li a:hover {
+        #aside #main-menu ul li a:hover {
           text-decoration: none;
           color: black; }
-          #colorlib-aside #colorlib-main-menu ul li a:hover:after {
+          #aside #main-menu ul li a:hover:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
             -moz-transform: scaleX(1);
             -ms-transform: scaleX(1);
             -o-transform: scaleX(1);
             transform: scaleX(1); }
-      #colorlib-aside #colorlib-main-menu ul li.colorlib-active a {
+      #aside #main-menu ul li.active a {
         color: #000000; }
-        #colorlib-aside #colorlib-main-menu ul li.colorlib-active a:after {
+        #aside #main-menu ul li.active a:after {
           visibility: visible;
           -webkit-transform: scaleX(1);
           -moz-transform: scaleX(1);
           -ms-transform: scaleX(1);
           -o-transform: scaleX(1);
           transform: scaleX(1); }
-  #colorlib-aside .colorlib-footer {
+  #aside .footer {
     position: absolute;
     bottom: 40px;
     left: 0;
@@ -7432,25 +7427,25 @@ h1, h2, h3, h4, h5,
     font-size: 14px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6); }
-    #colorlib-aside .colorlib-footer h3 {
+    #aside .footer h3 {
       font-size: 16px;
       font-weight: 600;
       margin-bottom: 20px; }
-    #colorlib-aside .colorlib-footer a {
+    #aside .footer a {
       color: #000000; }
-    #colorlib-aside .colorlib-footer span {
+    #aside .footer span {
       display: block; }
-    #colorlib-aside .colorlib-footer ul {
+    #aside .footer ul {
       padding: 0;
       margin: 0; }
-      #colorlib-aside .colorlib-footer ul li {
+      #aside .footer ul li {
         padding: 0;
         margin: 0;
         list-style: none;
         width: 40px;
         height: 40px;
         margin-left: 10px; }
-        #colorlib-aside .colorlib-footer ul li a {
+        #aside .footer ul li a {
           width: 40px;
           height: 40px;
           color: black;
@@ -7461,13 +7456,13 @@ h1, h2, h3, h4, h5,
           -ms-border-radius: 50%;
           border-radius: 50%;
           background: #f46665; }
-          #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
+          #aside .footer ul li a:hover, #aside .footer ul li a:active, #aside .footer ul li a:focus {
             text-decoration: none;
             outline: none;
             color: #000000;
             background: #fff; }
 
-#colorlib-main {
+#main {
   width: 100%;
   float: right;
   -moz-transition: all 0.5s ease;
@@ -7476,20 +7471,20 @@ h1, h2, h3, h4, h5,
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease; }
   @media (min-width: 992px) {
-    #colorlib-main {
+    #main {
       width: 80%; } }
 
-.colorlib-nav-toggle {
+.nav-toggle {
   cursor: pointer;
   text-decoration: none; }
-  .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
+  .nav-toggle.active i::before, .nav-toggle.active i::after {
     background: #000000; }
-  .colorlib-nav-toggle.dark.active i::before, .colorlib-nav-toggle.dark.active i::after {
+  .nav-toggle.dark.active i::before, .nav-toggle.dark.active i::after {
     background: #000000; }
-  .colorlib-nav-toggle:hover, .colorlib-nav-toggle:focus, .colorlib-nav-toggle:active {
+  .nav-toggle:hover, .nav-toggle:focus, .nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
-  .colorlib-nav-toggle i {
+  .nav-toggle i {
     position: relative;
     display: inline-block;
     width: 30px;
@@ -7502,7 +7497,7 @@ h1, h2, h3, h4, h5,
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
-    .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
+    .nav-toggle i::before, .nav-toggle i::after {
       content: '';
       width: 30px;
       height: 2px;
@@ -7514,14 +7509,14 @@ h1, h2, h3, h4, h5,
       -webkit-transition: all 0.2s ease;
       -ms-transition: all 0.2s ease;
       transition: all 0.2s ease; }
-  .colorlib-nav-toggle.dark i {
+  .nav-toggle.dark i {
     position: relative;
     color: #000000;
     background: #000000;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
-    .colorlib-nav-toggle.dark i::before, .colorlib-nav-toggle.dark i::after {
+    .nav-toggle.dark i::before, .nav-toggle.dark i::after {
       background: #000000;
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
@@ -7529,22 +7524,22 @@ h1, h2, h3, h4, h5,
       -ms-transition: all 0.2s ease;
       transition: all 0.2s ease; }
 
-.colorlib-nav-toggle i::before {
+.nav-toggle i::before {
   top: -7px; }
 
-.colorlib-nav-toggle i::after {
+.nav-toggle i::after {
   bottom: -7px; }
 
-.colorlib-nav-toggle:hover i::before {
+.nav-toggle:hover i::before {
   top: -10px; }
 
-.colorlib-nav-toggle:hover i::after {
+.nav-toggle:hover i::after {
   bottom: -10px; }
 
-.colorlib-nav-toggle.active i {
+.nav-toggle.active i {
   background: transparent; }
 
-.colorlib-nav-toggle.active i::before {
+.nav-toggle.active i::before {
   top: 0;
   -webkit-transform: rotateZ(45deg);
   -moz-transform: rotateZ(45deg);
@@ -7552,7 +7547,7 @@ h1, h2, h3, h4, h5,
   -o-transform: rotateZ(45deg);
   transform: rotateZ(45deg); }
 
-.colorlib-nav-toggle.active i::after {
+.nav-toggle.active i::after {
   bottom: 0;
   -webkit-transform: rotateZ(-45deg);
   -moz-transform: rotateZ(-45deg);
@@ -7560,7 +7555,7 @@ h1, h2, h3, h4, h5,
   -o-transform: rotateZ(-45deg);
   transform: rotateZ(-45deg); }
 
-.colorlib-nav-toggle {
+.nav-toggle {
   position: fixed;
   left: -12px;
   top: 0px;
@@ -7575,7 +7570,7 @@ h1, h2, h3, h4, h5,
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease; }
   @media (max-width: 991.98px) {
-    .colorlib-nav-toggle {
+    .nav-toggle {
       opacity: 1;
       visibility: visible; } }
 
